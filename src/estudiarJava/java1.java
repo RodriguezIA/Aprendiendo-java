@@ -10,6 +10,7 @@ public class java1 {
         practica2 dineroN = new practica2();
         practica3 pro = new practica3();
         practica4 suma = new practica4();
+        practica5 dias = new practica5();
 
         /*entrada y salida
         int numero;
@@ -155,6 +156,8 @@ public class java1 {
         pro.getTotal();
         */
 
+
+        /*
         //suma de la forma (a+b)^2
         System.out.println("Ingrese el primer termino: ");
         int uno= entrada.nextInt();
@@ -163,6 +166,13 @@ public class java1 {
         suma.setPrimer_termino(uno);
         suma.setSegundo_termino(dos);
         suma.resultado();
+
+         */
+
+        System.out.println("Ingrese el total de horas: ");
+        int horas = entrada.nextInt();
+        dias.setDato(horas);
+        dias.tiempo();
 
 
 
